@@ -29,7 +29,7 @@ nav table { /* navigation table */
 nav a { text-decoration: none; } /* links on nav bar */
 
 nav td { /* each cell of nav table */
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
 }
@@ -42,7 +42,7 @@ body { /* main body */
 }
 
 section h1 { /* headings */
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
 }
 
