@@ -6,6 +6,8 @@
 header { /* header + navigation bar */
     background-color: #BDE6EA;
     height: 20%;
+    width: 100%;
+    display: block;
 }
 
 #header {
