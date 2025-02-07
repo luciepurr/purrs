@@ -42,8 +42,8 @@ body { /* main body */
     padding-right: 30%;
 }
 
-section h2 { /* headings */
-    font-size: 16px;
+section h1 { /* headings */
+    font-size: 18px;
     text-align: center;
 }
 
@@ -55,4 +55,13 @@ section p { /* paragraphs */
 section a { /* section links */
     text-decoration: none;
     font-weight: bold;
+}
+
+section input { /* contact form boxes */
+    box-align: center;
+}
+
+.submit { /* submit button */
+    color: #BDE6EA;
+    box-align: right;
 }
