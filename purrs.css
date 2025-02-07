@@ -73,3 +73,13 @@ section input {
     background-color: #BDE6EA;
     box-align: right;
 }
+
+.right {
+    text-align: right;
+    margin-right: 5px;
+}
+
+.left {
+    text-align: left;
+    margin-right: 5px;
+}
