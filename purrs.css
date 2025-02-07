@@ -5,7 +5,8 @@
 
 header { /* header + navigation bar */
     background-color: #BDE6EA;
-    height: 20%;
+    height: 500px;
+    width: 100vw;
 }
 
 header img { /* logo image */
