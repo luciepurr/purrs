@@ -5,10 +5,14 @@
 
 header { /* header + navigation bar */
     background-color: #BDE6EA;
-    height: 500px;
-    width: 100vw;
+    height: 20%;
+    width: 100%;
     margin: 0;
     padding: 0;
+}
+
+#header {
+    width: 100%;
 }
 
 header img { /* logo image */
