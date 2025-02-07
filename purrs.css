@@ -11,11 +11,10 @@ header { /* header + navigation bar */
 header img { /* logo image */
     float: left;
     padding-left: 5%;
-
+    height: 200px;
 }
 
 header input { /* search bar */
-    position: relative;
     box-align: right;
     margin-right: 10%;
     width: 30%;
@@ -31,8 +30,9 @@ nav table { /* navigation table */
 nav a { text-decoration: none; } /* links on nav bar */
 
 nav td { /* each cell of nav table */
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
+    font-weight: bold;
 }
 
 body { /* main body */
@@ -43,13 +43,13 @@ body { /* main body */
 }
 
 section h1 { /* headings */
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 
 section p { /* paragraphs */
-    font-size: 12px;
-    text-align: center justify;
+    font-size: 14px;
+    text-align: justify;
 }
 
 section a { /* section links */
@@ -62,6 +62,6 @@ section input { /* contact form boxes */
 }
 
 .submit { /* submit button */
-    color: #BDE6EA;
+    background-color: #BDE6EA;
     box-align: right;
 }
