@@ -1,8 +1,10 @@
+/* universal */
 * { 
     font: Palatino;
     color: #000;
 }
 
+/* header - should stretch color across entire screen, i am crying b/c it does not and cannot figure out how  */
 header { 
     background-color: #BDE6EA;
     height: 20vh;
@@ -10,12 +12,14 @@ header {
     margin: 0;
 }
 
+/* logo image */
 header img { 
     float: left;
     padding-left: 5%;
     height: 200px;
 }
 
+/* search bar */
 header input {
     position: relative;
     margin-right: 10%;
@@ -23,6 +27,7 @@ header input {
     float: right;
 }
 
+/* navigation bar */
 nav table { 
     border: 1px solid #262626;
     box-align: center;
@@ -30,14 +35,17 @@ nav table {
     margin-bottom: 0;
 }
 
-nav a { text-decoration: none; } /* links on nav bar */
+/* links on nav bar */
+nav a { text-decoration: none; }
 
+/* cells of nav bar */
 nav td { 
     font-size: 16px;
     text-align: center;
     font-weight: bold;
 }
 
+/* main body of page */
 body { 
     background-color: #FFD2E3;
     box-sizing: border-box;
@@ -45,40 +53,58 @@ body {
     padding-right: 30%;
 }
 
+/* h1 titles */
 section h1 { 
     font-size: 20px;
     text-align: center;
 }
 
+/* h2 titles */
 section h2 {
     font-size: 18px;
 }
 
+/* paragraph text */
 section p { 
     font-size: 14px;
     text-align: justify;
 }
 
+/* links */
 section a { 
     text-decoration: none;
     font-weight: bold;
 }
 
+/* form boxes */
 section input { 
     box-align: center;
 }
 
+/* color submit button, if it would work */
 .submit {
     background-color: #BDE6EA;
     box-align: right;
 }
 
+/* about page right-aligned sections */
 .right {
     text-align: right;
     margin-right: 5px;
 }
 
+/* about page right-aligned image floats */
+#right {
+    float: right;
+}
+
+/* about page left-aligned sections */
 .left {
     text-align: left;
     margin-right: 5px;
+}
+
+/* about page left-aligned image floats */
+#left {
+    float: left;
 }
