@@ -9,7 +9,11 @@ header {
     background-color: #BDE6EA;
     height: 20vh;
     width: 100vw;
-    margin: 0;
+    margin: 0 auto;
+}
+
+#header {
+
 }
 
 /* logo image */
@@ -96,6 +100,8 @@ section input {
 /* about page right-aligned image floats */
 #right {
     float: right;
+    height: 200px;
+    width: 300px;
 }
 
 /* about page left-aligned sections */
@@ -107,4 +113,24 @@ section input {
 /* about page left-aligned image floats */
 #left {
     float: left;
+    height: 200px;
+    width: 300px;
+}
+
+.resize {
+    height: 300px;
+    width: 300px;
+}
+
+/* footer - same issue as header, but we out of time */
+footer {
+    background-color: #BDE6EA;
+    height: 10vh;
+    width: 100vw;
+    margin-bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    size: 12px;
 }
