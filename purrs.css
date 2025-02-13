@@ -1,4 +1,4 @@
-ht/* universal */
+/* universal */
 * { 
     font: Palatino, Georgia, serif;
     color: #000;
@@ -28,6 +28,7 @@ header input {
     position: relative;
     margin-right: 10%;
     width: 30%;
+    height: 20px;
     float: right;
 }
 
