@@ -43,6 +43,7 @@ nav table {
     padding: 0px;
     margin-top: 150px;
     margin-left: -500px;
+    margin-right: 500px;
     z-index: 1;
 }
 
@@ -68,18 +69,18 @@ body {
 
 /* h1 titles */
 section h1 { 
-    font-size: 40px;
+    font-size: 40pt;
     text-align: center;
 }
 
 /* h2 titles */
 section h2 {
-    font-size: 30px;
+    font-size: 30pt;
 }
 
 /* paragraph text */
 section p { 
-    font-size: 14px;
+    font-size: 14pt;
     text-align: justify;
     margin-left: 200px;
     margin-right: 200px;
