@@ -28,7 +28,7 @@ header img {
 header input {
     position: relative;
     margin-right: 20%;
-    margin-top: 40px;
+    margin-top: 80px;
     width: 30%;
     height: 20px;
     float: right;
@@ -38,9 +38,10 @@ header input {
 nav table { 
     background-color: #BDE6EA;
     position: absolute;
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    padding: 0px;
     margin-top: 150px;
-    margin-right: 500px;
+    margin-left: 500px;
 }
 
 /* links on nav bar */
@@ -142,5 +143,5 @@ footer {
 footer p {
     text-align: center;
     size: 10px;
-    padding-left: 50%;
+    padding-left: 45%;
 }
