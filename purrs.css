@@ -1,15 +1,15 @@
 /* universal */
 * { 
-    font: Palatino;
+    font: Palatino, Georgia, serif;
     color: #000;
 }
 
-/* header - should stretch color across entire screen, i am crying b/c it does not and cannot figure out how  */
+/* header  */
 header { 
     background-color: #BDE6EA;
     display: flex;
     position: absolute;
-    height: 200px;
+    height: 220px;
     width: 100%;
     top: 0;
     left: 0;
@@ -19,7 +19,8 @@ header {
 header img { 
     float: left;
     padding-left: 5%;
-    height: 200px;
+    height: 10%;
+    width: 10%;
 }
 
 /* search bar */
@@ -120,19 +121,19 @@ section input {
     width: 300px;
 }
 
-/* footer - same issue as header, but we out of time */
+/* footer */
 footer {
     display: flex;
     background-color: #BDE6EA;
     position: absolute;
-    height: 10vh;
+    height: 5vh;
     width: 100%;
-    bottom: 0;'
+    bottom: 0;
     left: 0;
 }
 
 /* footer text */
 footer p {
     text-align: center;
-    size: 12px;
+    size: 10px;
 }
