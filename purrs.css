@@ -41,9 +41,8 @@ nav table {
     position: absolute;
     margin-bottom: 0px;
     padding-right: 20px;
-    margin-top: 150px;
-    margin-left: -500px;
-    margin-right: 1000px;
+    left: 50%;
+    transform: translate(-50%, 0);
     z-index: 1;
 }
 
@@ -68,13 +67,13 @@ body {
 
 /* h1 titles */
 section h1 { 
-    font-size: 30pt;
+    font-size: 25pt;
     text-align: center;
 }
 
 /* h2 titles */
 section h2 {
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
 /* paragraph text */
@@ -83,6 +82,7 @@ section p {
     text-align: justify;
     margin-left: 200px;
     margin-right: 200px;
+    padding: 10px;
 }
 
 /* links */
@@ -127,7 +127,7 @@ section input {
 /* resizes images */
 .resize {
     height: 300px;
-    width: 300px;
+    width: 400px;
 }
 
 /* footer */
