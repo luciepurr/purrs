@@ -19,9 +19,9 @@ header {
 header img { 
     float: left;
     padding-left: 5%;
-    height: 50%;
+    height: 40%;
     width: 90%;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 /* search bar */
@@ -49,9 +49,9 @@ nav a { text-decoration: none; }
 nav td { 
     border: 1px solid #262626;
     font-size: 16px;
-    text-align: center;
     font-weight: bold;
-    padding: 10px;
+    padding: 10px 30px;
+    justify-content: center;
 }
 
 /* main body of page */
