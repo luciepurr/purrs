@@ -19,7 +19,7 @@ header {
 header img { 
     float: left;
     padding-left: 5%;
-    height: 40%;
+    height: 30%;
     width: 90%;
     padding-top: 20px;
 }
@@ -28,7 +28,7 @@ header img {
 header input {
     position: relative;
     margin-right: 20%;
-    margin-top: 20px;
+    margin-top: 40px;
     width: 30%;
     height: 20px;
     float: right;
@@ -39,7 +39,8 @@ nav table {
     background-color: #BDE6EA;
     position: absolute;
     margin-bottom: 0;
-    margin-right: 50%;
+    margin-top: 200px;
+    margin-right: 200px;
 }
 
 /* links on nav bar */
@@ -48,7 +49,7 @@ nav a { text-decoration: none; }
 /* cells of nav bar */
 nav td { 
     border: 1px solid #262626;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     padding: 10px 30px;
     justify-content: center;
@@ -58,8 +59,8 @@ nav td {
 body { 
     background-color: #FFD2E3;
     box-sizing: border-box;
-    padding: 10px;
-    margin-top: 210px;;
+    padding: 10px 50px;
+    margin-top: 210px;
 }
 
 /* h1 titles */
@@ -139,4 +140,5 @@ footer {
 footer p {
     text-align: center;
     size: 10px;
+    padding-left: 50%;
 }
