@@ -40,7 +40,7 @@ nav table {
     background-color: #BDE6EA;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 30);
     z-index: 1;
 }
 
@@ -109,6 +109,7 @@ section input {
 /* about page right-aligned image floats */
 #right {
     float: right;
+    padding: 5px;
 }
 
 /* about page left-aligned sections */
@@ -120,6 +121,7 @@ section input {
 /* about page left-aligned image floats */
 #left {
     float: left;
+    padding: 5px;
 }
 
 /* resizes images */
@@ -132,11 +134,10 @@ section input {
 footer {
     display: flex;
     background-color: #BDE6EA;
-    position: relative;
+    position: absolute;
     height: 5vh;
     width: 100%;
     bottom: 0;
-    left: 0;
 }
 
 /* footer text */
