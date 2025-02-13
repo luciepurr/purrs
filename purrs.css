@@ -71,7 +71,7 @@ section h1 {
 
 /* h2 titles */
 section h2 {
-    font-size: 18pt;
+    font-size: 20pt;
 }
 
 /* paragraph text */
@@ -104,6 +104,7 @@ section input {
 .right {
     text-align: right;
     margin-right: 5px;
+    padding: 10px;
 }
 
 /* about page right-aligned image floats */
@@ -116,6 +117,7 @@ section input {
 .left {
     text-align: left;
     margin-right: 5px;
+    padding: 10px;
 }
 
 /* about page left-aligned image floats */
