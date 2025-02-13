@@ -40,7 +40,7 @@ nav table {
     background-color: #BDE6EA;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 30);
+    transform: translate(-50%, -30%);
     z-index: 1;
 }
 
@@ -132,11 +132,22 @@ section input {
     width: 400px;
 }
 
+
+/* contact container */
+.contact {
+    box-sizing: border-box;
+    background-color: #BDE6EA;
+    border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 /* footer */
 footer {
     display: flex;
     background-color: #BDE6EA;
-    position: absolute;
+    position: relative;
     height: 5vh;
     width: 100%;
     bottom: 0;
@@ -148,3 +159,6 @@ footer p {
     size: 10px;
     padding-left: 45%;
 }
+
+
+
