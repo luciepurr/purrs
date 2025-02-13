@@ -18,10 +18,10 @@ header {
 /* logo image */
 header img { 
     float: left;
-    padding-left: 5%;
     height: 30%;
     width: 90%;
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
 /* search bar */
@@ -39,8 +39,8 @@ nav table {
     background-color: #BDE6EA;
     position: absolute;
     margin-bottom: 0;
-    margin-top: 200px;
-    margin-right: 200px;
+    margin-top: 150px;
+    margin-right: 500px;
 }
 
 /* links on nav bar */
@@ -49,9 +49,9 @@ nav a { text-decoration: none; }
 /* cells of nav bar */
 nav td { 
     border: 1px solid #262626;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    padding: 10px 30px;
+    padding: 10px 40px;
     justify-content: center;
 }
 
@@ -78,6 +78,8 @@ section h2 {
 section p { 
     font-size: 14px;
     text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 /* links */
