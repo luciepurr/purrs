@@ -100,20 +100,21 @@ section input {
     background-color: #BDE6EA;
     box-align: right;
     position: absolute;
-    transform: translate(70%,500%);
+    transform: translate(270%,200%);
 }
 
 /* about page right-aligned sections */
 .right {
     text-align: right;
-    margin-right: 5px;
+    margin-right: 15px;
     padding: 15px;
 }
 
 /* about page right-aligned image floats */
 #right {
     float: right;
-    padding: 5px;
+    padding: 15px;
+    margin-top: 20px;
 }
 
 /* about page left-aligned sections */
@@ -121,12 +122,13 @@ section input {
     text-align: left;
     margin-right: 5px;
     padding: 15px;
+    margin-top: 20px;
 }
 
 /* about page left-aligned image floats */
 #left {
     float: left;
-    padding: 5px;
+    padding: 15px;
 }
 
 /* resizes images */
@@ -148,12 +150,11 @@ section input {
 
 /* footer */
 footer {
-    display: flex;
     background-color: #BDE6EA;
     position: relative;
     height: 5vh;
     width: 100%;
-    bottom: 0;
+    bottom: 0px;
 }
 
 /* footer text */
