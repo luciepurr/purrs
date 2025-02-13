@@ -7,13 +7,12 @@
 /* header - should stretch color across entire screen, i am crying b/c it does not and cannot figure out how  */
 header { 
     background-color: #BDE6EA;
-    height: 20vh;
-    width: 100vw;
-    margin: 0 auto;
-}
-
-#header {
-
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 /* logo image */
@@ -37,6 +36,7 @@ nav table {
     box-align: center;
     position: absolute;
     margin-bottom: 0;
+    justify-content: space-between;
 }
 
 /* links on nav bar */
@@ -47,6 +47,7 @@ nav td {
     font-size: 16px;
     text-align: center;
     font-weight: bold;
+    padding: 10px;
 }
 
 /* main body of page */
@@ -100,8 +101,6 @@ section input {
 /* about page right-aligned image floats */
 #right {
     float: right;
-    height: 200px;
-    width: 300px;
 }
 
 /* about page left-aligned sections */
@@ -113,10 +112,9 @@ section input {
 /* about page left-aligned image floats */
 #left {
     float: left;
-    height: 200px;
-    width: 300px;
 }
 
+/* resizes images */
 .resize {
     height: 300px;
     width: 300px;
@@ -124,12 +122,16 @@ section input {
 
 /* footer - same issue as header, but we out of time */
 footer {
+    display: flex;
     background-color: #BDE6EA;
+    position: absolute;
     height: 10vh;
-    width: 100vw;
-    margin-bottom: 0;
+    width: 100%;
+    bottom: 0;'
+    left: 0;
 }
 
+/* footer text */
 footer p {
     text-align: center;
     size: 12px;
