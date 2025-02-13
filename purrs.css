@@ -36,10 +36,10 @@ header input {
 
 /* navigation bar */
 nav table { 
-    border: 1px solid #262626;
     background-color: #BDE6EA;
     position: absolute;
     margin-bottom: 0;
+    margin-rioght: 50%;
 }
 
 /* links on nav bar */
