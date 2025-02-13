@@ -40,7 +40,7 @@ nav table {
     background-color: #BDE6EA;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 90%);
+    transform: translate(-50%, 200%);
     z-index: 1;
 }
 
@@ -92,19 +92,22 @@ section a {
 /* form boxes */
 section input { 
     box-align: center;
+    padding: 15px;
 }
 
 /* color submit button, if it would work */
 .submit {
     background-color: #BDE6EA;
     box-align: right;
+    position: absolute;
+    transform: translate(70%,500%);
 }
 
 /* about page right-aligned sections */
 .right {
     text-align: right;
     margin-right: 5px;
-    padding: 10px;
+    padding: 15px;
 }
 
 /* about page right-aligned image floats */
@@ -117,7 +120,7 @@ section input {
 .left {
     text-align: left;
     margin-right: 5px;
-    padding: 10px;
+    padding: 15px;
 }
 
 /* about page left-aligned image floats */
