@@ -9,7 +9,7 @@ header {
     background-color: #BDE6EA;
     display: flex;
     position: absolute;
-    height: 220px;
+    height: 200px;
     width: 100%;
     top: 0;
     left: 0;
@@ -38,7 +38,6 @@ nav table {
     box-align: center;
     position: absolute;
     margin-bottom: 0;
-    justify-content: space-between;
 }
 
 /* links on nav bar */
@@ -56,7 +55,7 @@ nav td {
 body { 
     background-color: #FFD2E3;
     box-sizing: border-box;
-    padding: 30%;
+    padding: 10px;
     margin: 5;
 }
 
