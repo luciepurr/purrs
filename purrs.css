@@ -40,7 +40,7 @@ nav table {
     background-color: #BDE6EA;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 200%);
+    transform: translate(-50%, 500%);
     z-index: 1;
 }
 
@@ -59,7 +59,7 @@ nav td {
 body { 
     background-color: #FFD2E3;
     box-sizing: border-box;
-    padding: 10px 50px;
+    padding: 10px 30px;
     margin-top: 210px;
 }
 
@@ -80,7 +80,7 @@ section p {
     text-align: justify;
     margin-left: 200px;
     margin-right: 200px;
-    padding: 10px;
+    padding: 10px 5px 10px 5px;
 }
 
 /* links */
@@ -89,10 +89,24 @@ section a {
     font-weight: bold;
 }
 
+/* contact container */
+.contact {
+    box-sizing: border-box;
+    background-color: #BDE6EA;
+    border-radius: 30px;
+    position: absolute;
+    padding: 20px;
+    height: 400px;
+    width: 550px;
+    left: 50%;
+    transform: translate(-30%, 0);
+}
+
 /* form boxes */
 section input { 
     box-align: center;
     padding: 20px;
+    border-radius: 10px;
 }
 
 /* color submit button, if it would work */
@@ -135,19 +149,6 @@ section input {
 .resize {
     height: 300px;
     width: 400px;
-}
-
-/* contact container */
-.contact {
-    box-sizing: border-box;
-    background-color: #BDE6EA;
-    border-radius: 30px;
-    position: absolute;
-    padding: 20px;
-    height: 500px;
-    width: 550px;
-    left: 50%;
-    transform: translate(-30%, 10);
 }
 
 /* footer */
