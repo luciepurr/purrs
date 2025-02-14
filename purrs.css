@@ -40,7 +40,7 @@ nav table {
     background-color: #BDE6EA;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 400%);
+    transform: translate(-50%, 350%);
     z-index: 1;
 }
 
@@ -99,7 +99,7 @@ section a {
     height: 400px;
     width: 550px;
     left: 50%;
-    transform: translate(-20%, 0);
+    transform: translate(-50%, 0);
 }
 
 /* form boxes */
@@ -114,7 +114,7 @@ section input, textarea {
     background-color: #BDE6EA;
     box-align: right;
     position: absolute;
-    transform: translate(400%, 200%);
+    transform: translate(400%, -200%);
 }
 
 /* about page right-aligned sections */
