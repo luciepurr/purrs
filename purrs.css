@@ -100,20 +100,20 @@ section input {
     background-color: #BDE6EA;
     box-align: right;
     position: absolute;
-    transform: translate(270%,200%);
+    transform: translate(250%, 600%);
 }
 
 /* about page right-aligned sections */
 .right {
     text-align: right;
     margin-right: 15px;
-    padding: 15px;
+    padding: 25px;
 }
 
 /* about page right-aligned image floats */
 #right {
     float: right;
-    padding: 15px;
+    padding: 25px;
     margin-top: 20px;
 }
 
@@ -121,14 +121,14 @@ section input {
 .left {
     text-align: left;
     margin-right: 5px;
-    padding: 15px;
+    padding: 25px;
     margin-top: 20px;
 }
 
 /* about page left-aligned image floats */
 #left {
     float: left;
-    padding: 15px;
+    padding: 25px;
 }
 
 /* resizes images */
@@ -137,13 +137,15 @@ section input {
     width: 400px;
 }
 
-
 /* contact container */
 .contact {
     box-sizing: border-box;
     background-color: #BDE6EA;
     border-radius: 30px;
     position: absolute;
+    padding: 20px;
+    height: 600px;
+    width:500px;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -154,7 +156,6 @@ footer {
     position: relative;
     height: 5vh;
     width: 100%;
-    bottom: 0px;
 }
 
 /* footer text */
