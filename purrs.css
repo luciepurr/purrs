@@ -92,7 +92,7 @@ section a {
 /* form boxes */
 section input { 
     box-align: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 /* color submit button, if it would work */
@@ -144,10 +144,10 @@ section input {
     border-radius: 30px;
     position: absolute;
     padding: 20px;
-    height: 600px;
-    width:500px;
+    height: 500px;
+    width: 550px;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-30%, 10);
 }
 
 /* footer */
@@ -156,13 +156,14 @@ footer {
     position: relative;
     height: 5vh;
     width: 100%;
+    bottom: 0;
 }
 
 /* footer text */
 footer p {
     text-align: center;
     size: 10px;
-    padding-left: 45%;
+    padding-left: 40%;
 }
 
 
