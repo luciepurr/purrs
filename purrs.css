@@ -38,7 +38,7 @@ header input {
 /* search symbol */
 header i {
     position: relative;
-    margin-right: 10%;
+    margin-right: 30%;
     margin-top: 80px;
     float: right;
     size: 15pt;
@@ -108,7 +108,7 @@ section a {
     height: 400px;
     width: 550px;
     left: 50%;
-    transform: translate(-50%, 10);
+    transform: translate(-50%, 0);
 }
 
 /* form boxes */
@@ -123,7 +123,7 @@ section input, textarea {
     background-color: #BDE6EA;
     box-align: right;
     position: absolute;
-    transform: translate(500%, -10%);
+    transform: translate(500%, 0%);
 }
 
 /* about page right-aligned sections */
