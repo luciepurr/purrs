@@ -76,7 +76,7 @@ section h2 {
 
 /* paragraph text */
 section p { 
-    font-size: 14pt;
+    font-size: 12pt;
     text-align: justify;
     margin-left: 200px;
     margin-right: 200px;
@@ -114,7 +114,7 @@ section input, textarea {
     background-color: #BDE6EA;
     box-align: right;
     position: absolute;
-    transform: translate(420%, -100%);
+    transform: translate(450%, -200%);
 }
 
 /* about page right-aligned sections */
