@@ -29,6 +29,7 @@ header img {
 header input {
     position: relative;
     margin-right: 15px;
+    margin-left: 40px;
     margin-top: 80px;
     width: 30%;
     height: 20px;
@@ -38,7 +39,7 @@ header input {
 /* search symbol */
 header i {
     position: relative;
-    margin-right: 30%;
+    margin-right: 20%;
     margin-top: 90px;
     float: right;
     size: 20pt;
@@ -123,7 +124,7 @@ section input, textarea {
     background-color: #BDE6EA;
     box-align: right;
     position: absolute;
-    transform: translate(500%, -20%);
+    transform: translate(500%, -40%);
 }
 
 /* about page right-aligned sections */
@@ -165,10 +166,10 @@ section input, textarea {
 footer {
     background-color: #BDE6EA;
     position: relative;
-    height: 5vh;
+    height: 4vh;
     width: 100%;
     bottom: 0;
-    margin-top: 400px;
+    margin-top: 500px;
 }
 
 /* footer text */
