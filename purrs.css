@@ -124,7 +124,7 @@ section input, textarea {
     background-color: #BDE6EA;
     box-align: right;
     position: absolute;
-    transform: translate(800%, -500%);
+    transform: translate(100%, 500%);
 }
 
 /* about page right-aligned sections */
