@@ -102,6 +102,7 @@ section a {
 .contact {
     box-sizing: border-box;
     background-color: #BDE6EA;
+    border: 2px solid #000;
     border-radius: 30px;
     position: absolute;
     padding: 20px;
