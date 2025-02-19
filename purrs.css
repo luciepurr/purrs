@@ -79,6 +79,11 @@ section h1 {
     text-align: center;
 }
 
+/* h1 links */
+h1 a {
+    text-decoration: underline;
+}
+
 /* h2 titles */
 section h2 {
     font-size: 20pt;
