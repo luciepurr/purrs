@@ -19,10 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
        } 
   
        // If there are errors, prevent form submission and display them 
-       if (errors.length > 0) { 
-} 
-event.preventDefault(); // Prevent form submission 
-alert(errors.join("\n")); // Display error messages in an alert 
+       if (errors.length > 0) {
+          event.preventDefault(); // Prevent form submission 
+      alert(errors.join("\n")); // Display error messages in an alert 
         }
-        ); 
+   }); 
 }); 
