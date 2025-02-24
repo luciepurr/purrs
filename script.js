@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () { 
-   const form = document.getElementById("registration-form"); 
+   const form = document.getElementById("contact"); 
    const nameInput = document.getElementById("sender"); 
    const emailInput = document.getElementById("email"); 
   
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
        // If there are errors, prevent form submission and display them 
        if (errors.length > 0) {
           event.preventDefault(); // Prevent form submission 
-      alert(errors.join("\n")); // Display error messages in an alert 
+          alert(errors.join("\n")); // Display error messages in an alert 
         }
    }); 
 }); 
