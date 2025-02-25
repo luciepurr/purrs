@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () { 
    const form = document.getElementById("contactform"); 
-   const nameInput = document.getElementById("sender"); 
+   const nameInput = document.getElementById("name"); 
    const emailInput = document.getElementById("email"); 
   
    form.addEventListener("submit", function (event) { 
