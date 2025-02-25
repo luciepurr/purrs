@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("contactform");
-    const usernameInput = document.getElementById("name");
+    const nameInput = document.getElementById("name");
     const emailInput = document.getElementById("email");
     form.addEventListener("submit", function (event) {
        
@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const errors = [];
        
     // Validation for sender's name (minimum length of 2 chars)
-    if (usernameInput.value.length < 2) {
+    if (nameInput.value.length < 2) {
     errors.push("Name must be at least 2 characters long.");
     }
        
